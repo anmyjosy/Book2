@@ -1,0 +1,50 @@
+.navbar{
+  width:100%;
+  color: #fff;
+  padding: 4px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  margin-top: 10px;
+
+}
+.hom{
+  display: flex;
+}
+.hom button{
+  background-color: white;
+  color:rgb(147, 64, 64);
+  border-radius:2px;
+  border: none;
+  cursor: pointer;
+  margin-right: 14px;
+  margin-left: 8px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-top: 9px;
+  padding-right: 15px;
+  padding-bottom: 9px;
+}
+.navbar h1{
+  margin-left: 10px;
+}
+.navbar p{
+  color: white;
+  margin-top: 10px;
+  font-size: 19px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.navbar p:hover{
+  text-decoration: underline;
+  color: rgb(147, 64, 64);
+}
+.hom button:hover{
+  background-color: rgb(147, 64, 64);
+  color: white;
+}

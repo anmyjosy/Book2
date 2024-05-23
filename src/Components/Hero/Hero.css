@@ -1,0 +1,39 @@
+.hero{
+  background:url(../../assets/image3.jpg);
+  opacity: 0.75;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1{
+  color: black;
+  font-size: 50px;
+}
+.hero button{
+  background-color:white;
+  padding: 8px 20px;
+  color: black;
+  border-color: rgb(0, 0, 0);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 90px;
+}
+.hero button:hover{
+  background: black;
+  color: white;
+}
+.hero button:active{
+  text-decoration: underline;
+}
+.hero p{
+  color: rgb(31, 10, 10);
+  font-weight: bold;
+  margin-left: 50px;
+  font-size: 20px;
+}
